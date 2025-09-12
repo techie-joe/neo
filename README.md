@@ -3,6 +3,8 @@
 
 **Neo** helps you build websites easily. It has everything pre-configured to get you started right away. You can write contents of your website in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
 
+<a href="https://techie-joe.github.io/neo/pages/" title="See how you can use this template to build your website" class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
+
 ---
 
 ## Usage
