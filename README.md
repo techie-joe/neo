@@ -8,7 +8,7 @@ To use the Neo theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: pages-themes/neo@v0.1.0
+    remote_theme: techie-joe/neo
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
