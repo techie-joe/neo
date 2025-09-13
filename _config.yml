@@ -1,0 +1,35 @@
+# Main Configurations
+
+  title: Neo Theme
+  description: Neo is a Jekyll theme for GitHub Pages.
+
+  favicon: favicon.ico
+  color_scheme: 'light dark'
+  theme_color: '#222'
+  # manifest: manifest.json
+
+  sass:
+    style: compressed
+
+  # Exclude these files from production site.
+  exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - ".sass-cache"
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - ".github"
+  - ".backup"
+  - ".local"
+  - ".bundle"
+  - vendor
+
+  # plugins:
+  # - jekyll-paginate
+  # - jekyll-sitemap
+
+# Custom Configurations
+
+  nickname: Neo
+    # a shortname for your site.

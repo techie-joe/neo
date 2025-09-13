@@ -1,0 +1,27 @@
+# Main Configurations
+
+  remote_theme: techie-joe/neo
+
+  plugins:
+  - jekyll-remote-theme
+    # add jekyll-remote-theme to the existing plugins list if
+    # you already have one.
+
+  title: [The title of your site]
+  description: [A short description of your site's purpose]
+
+# Custom Configurations
+
+  # nickname: [Neo]
+    # a shortname for your site.
+
+  # show_downloads: ["true" or "false" (unquoted)]
+    # indicate whether to provide a download URL.
+
+  # google_analytics: [Your Google Analytics tracking ID]
+    # fill in your Google Analytics ID to track your website
+    # using Google Analytics.
+
+  # github:
+    # zip_url: http://example.com/download.zip
+    # another_url: another value
