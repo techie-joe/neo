@@ -1,5 +1,5 @@
 # The Neo theme
-*Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/), or [use it today](#usage).*
+*Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/) or [use it today](#usage).*
 
 > [!WARNING]  
 > **This project is under active development towards a release. Use with caution. Future update may break your site.**
