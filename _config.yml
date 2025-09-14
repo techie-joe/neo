@@ -1,11 +1,25 @@
 # Main Configurations
 
-  title: Neo theme
-  description: Neo is a Jekyll theme for GitHub Pages.
+  # theme: jekyll-theme-neo
 
-  favicon: favicon.ico
-  color_scheme: 'light dark'
+  title: Neo theme
+  description: Neo is a clean, responsive Jekyll theme for GitHub Pages.
+
+  show_downloads: true
+  # show_downloads: ["true" or "false" (unquoted)]
+    # indicate whether to provide a download URL.
+
+  # google_analytics: [Your Google Analytics tracking ID]
+    # fill in your Google Analytics ID to track your website
+    # using Google Analytics.
+
+  # github:
+    # zip_url: http://example.com/download.zip
+    # another_url: another value
+
   theme_color: '#222'
+  color_scheme: 'light dark'
+  # favicon: favicon.ico
   # manifest: manifest.json
 
   sass:
