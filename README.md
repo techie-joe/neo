@@ -1,12 +1,25 @@
 # The Neo theme
+
 *Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/) or [use it today](#usage).*
 
 > [!WARNING]  
 > **This project is under active development towards a release. Use with caution. Future update may break your site.**
 
+<!--
+
+[![.github/workflows/ci.yaml](https://github.com/techie-joe/neo/actions/workflows/ci.yaml/badge.svg)](https://github.com/techie-joe/neo/actions/workflows/ci.yaml) [![Gem Version](https://github.com/techie-joe/neo/jekyll-theme-neo.svg)](https://github.com/techie-joe/neo/jekyll-theme-neo)
+
+-->
+
+<!--
+
+![Thumbnail of Neo theme](thumbnail.png)
+
 **Neo** theme helps you build websites easily. It has everything pre-configured to get you started right away. You can write contents of your website in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
 
-<a href="https://techie-joe.github.io/neo/" title="See how you can use this template to build your website" class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
+<a href="https://techie-joe.github.io/neo/" title="See how you can use this template to build your website" class="_bt -l -blue" style="width:10rem;height:3rem;font-weight:600;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
+
+-->
 
 ---
 
@@ -102,3 +115,25 @@ For more information, see [the Jekyll variables documentation](https://jekyllrb.
 ## Roadmap
 
 See the [open issues](https://github.com/techie-joe/neo/issues) for a list of proposed features (and known issues).
+
+<!--
+
+## Contributing
+
+Interested in contributing to Neo theme project? We'd love your help. Neo is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+
+### Previewing the theme locally
+
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
+
+1. Clone down the theme's repository (`git clone https://github.com/techie-joe/neo`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+
+### Running tests
+
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+
+-->
