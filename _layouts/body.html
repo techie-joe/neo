@@ -1,5 +1,5 @@
 ---
-# html document with a body tag
+# html document.
 name: body
 ---
 <!doctype html>
@@ -16,15 +16,15 @@ name: body
 
   <meta id="_color-scheme" name="color-scheme" content="{{ page.color_scheme | default: site.color_scheme | default: 'light dark' }}" />
   <meta id="_theme-color"  name="theme-color"  content="{{ page.theme_color | default: site.theme_color | default: '' }}" />
-  <link id="_style" rel="stylesheet" href="{{ site.github.url }}/assets/main/css/style.css?v{{ site.github.build_revision }}">
+  <link id="_style" rel="stylesheet" href="{{ site.github.url }}/assets/mallet/css/style.css?v{{ site.github.build_revision }}">
 
-	<link rel="icon" href="{{ site.github.url }}/assets/main/icon/favicon.ico?v{{ site.github.build_revision }}" sizes="any">
-	<link rel="icon" href="{{ site.github.url }}/assets/main/icon/favicon-16x16.png?v{{ site.github.build_revision }}" type="image/png" sizes="16x16">
-	<link rel="icon" href="{{ site.github.url }}/assets/main/icon/favicon-32x32.png?v{{ site.github.build_revision }}" type="image/png" sizes="32x32">
-	<link rel="icon" href="{{ site.github.url }}/assets/main/icon/android-chrome-192x192.png?v{{ site.github.build_revision }}" type="image/png" sizes="192x192">
-	<link rel="icon" href="{{ site.github.url }}/assets/main/icon/android-chrome-512x512.png?v{{ site.github.build_revision }}" type="image/png" sizes="512x512">
-	<link rel="apple-touch-icon" href="{{ site.github.url }}/assets/main/icon/apple-touch-icon.png?v{{ site.github.build_revision }}">
-	<link rel="manifest" href="{{ site.github.url }}/assets/main/icon/{{ site.manifest }}?v{{ site.github.build_revision }}">
+	<link rel="icon" href="{{ site.github.url }}/assets/mallet/icon/favicon.ico?v{{ site.github.build_revision }}" sizes="any">
+	<link rel="icon" href="{{ site.github.url }}/assets/mallet/icon/favicon-16x16.png?v{{ site.github.build_revision }}" type="image/png" sizes="16x16">
+	<link rel="icon" href="{{ site.github.url }}/assets/mallet/icon/favicon-32x32.png?v{{ site.github.build_revision }}" type="image/png" sizes="32x32">
+	<link rel="icon" href="{{ site.github.url }}/assets/mallet/icon/android-chrome-192x192.png?v{{ site.github.build_revision }}" type="image/png" sizes="192x192">
+	<link rel="icon" href="{{ site.github.url }}/assets/mallet/icon/android-chrome-512x512.png?v{{ site.github.build_revision }}" type="image/png" sizes="512x512">
+	<link rel="apple-touch-icon" href="{{ site.github.url }}/assets/mallet/icon/apple-touch-icon.png?v{{ site.github.build_revision }}">
+	<link rel="manifest" href="{{ site.github.url }}/assets/mallet/icon/{{ site.manifest }}?v{{ site.github.build_revision }}">
 
   <!--[if lt IE 9]><script src="//unpkg.com/html5shiv@3.7.3/dist/html5shiv.min.js"><![endif]-->
   
@@ -33,7 +33,7 @@ name: body
 <body>
   {{ content }}
   {% include credit.html %}
-	<script src="{{ site.github.url }}/assets/main/js/script.js?v{{ site.github.build_revision }}"></script>
+	<script src="{{ site.github.url }}/assets/mallet/js/script.js?v{{ site.github.build_revision }}"></script>
   {% include anchors.html %}
 </body>
 
