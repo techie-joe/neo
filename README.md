@@ -37,8 +37,10 @@ To use the Neo theme:
 
     ```yml
     remote_theme: techie-joe/neo
+
     plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
+    - jekyll-remote-theme
+    # add jekyll-remote-theme to the existing plugins list if you already have one.
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
@@ -61,8 +63,12 @@ description: [A short description of your site's purpose]
 Additionally, you may choose to set the following optional variables:
 
 ```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+show_downloads: ["true" or "false" (unquoted)]
+# indicate whether to provide a download URL.
+
 google_analytics: [Your Google Analytics tracking ID]
+# fill in your Google Analytics ID to track your website
+# using Google Analytics.
 ```
 
 ### Stylesheet
@@ -103,8 +109,8 @@ Templates often rely on URLs supplied by GitHub such as links to your repository
 2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
     ```yml
     github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
+        zip_url: http://example.com/download.zip
+        # another_url: another value
     ```
 3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
