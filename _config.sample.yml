@@ -1,5 +1,8 @@
 # Main Configurations
 
+  title: [The title of your site]
+  description: [A short description of your site's purpose]
+
   remote_theme: techie-joe/neo
 
   remote_theme_build_revision: {{ site.github.build_revision }}
@@ -8,9 +11,6 @@
   - jekyll-remote-theme
     # add jekyll-remote-theme to the existing plugins list if
     # you already have one.
-
-  title: [The title of your site]
-  description: [A short description of your site's purpose]
 
   # show_downloads: ["true" or "false" (unquoted)]
     # indicate whether to provide a download URL.
