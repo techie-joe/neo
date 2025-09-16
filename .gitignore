@@ -1,7 +1,10 @@
 _site
 .sass-cache
-Gemfile.lock
 *.gem
+*.gemspec
+Gemfile
+Gemfile.lock
+CNAME
 .jekyll-cache
 .jekyll-metadata
 .backup

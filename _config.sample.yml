@@ -12,6 +12,11 @@
     # add jekyll-remote-theme to the existing plugins list if
     # you already have one.
 
+# Custom Configurations
+
+  # nickname: [Neo]
+    # a shortname for your site.
+
   # show_downloads: ["true" or "false" (unquoted)]
     # indicate whether to provide a download URL.
 
@@ -22,8 +27,3 @@
   # github:
     # zip_url: http://example.com/download.zip
     # another_url: another value
-
-# Custom Configurations
-
-  # nickname: [Neo]
-    # a shortname for your site.

@@ -5,6 +5,39 @@
   title: Neo theme
   description: Neo is a clean, responsive Jekyll theme for GitHub Pages.
 
+  theme_color: '#222'
+  color_scheme: 'light dark'
+  # favicon: favicon.ico
+  # manifest: manifest.json
+
+  sass:
+    style: compressed
+
+  # plugins:
+  # - jekyll-paginate
+  # - jekyll-sitemap
+
+  # Exclude these files from production site.
+  exclude:
+  - ".github"
+  - ".sass-cache"
+  - "*.gem"
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - ".jekyll-cache"
+  - ".jekyll-metadata"
+  - ".backup"
+  - ".local"
+  - ".bundle"
+  - vendor
+
+# Custom Configurations
+
+  nickname: Neo
+    # a shortname for your site.
+
   show_downloads: true
   # show_downloads: ["true" or "false" (unquoted)]
     # indicate whether to provide a download URL.
@@ -16,34 +49,3 @@
   # github:
     # zip_url: http://example.com/download.zip
     # another_url: another value
-
-  theme_color: '#222'
-  color_scheme: 'light dark'
-  # favicon: favicon.ico
-  # manifest: manifest.json
-
-  sass:
-    style: compressed
-
-  # Exclude these files from production site.
-  exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - ".sass-cache"
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
-  - ".github"
-  - ".backup"
-  - ".local"
-  - ".bundle"
-  - vendor
-
-  # plugins:
-  # - jekyll-paginate
-  # - jekyll-sitemap
-
-# Custom Configurations
-
-  nickname: Neo
-    # a shortname for your site.
