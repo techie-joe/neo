@@ -1,4 +1,4 @@
 ---
-permalink: "default"
+permalink: default
 ---
 _default_

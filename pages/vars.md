@@ -1,6 +1,6 @@
 ---
 title: Vars
-description: Variables of this site.
+description: Variables on this site.
 permalink: vars
 ---
 

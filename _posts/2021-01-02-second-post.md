@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "Second Post"
 description: "Vivamus pellentesque sit amet justo quis congue."
 ---

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title:  "First Post"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 permalink: first-post
