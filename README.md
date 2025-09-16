@@ -38,6 +38,8 @@ To use the Neo theme:
     ```yml
     remote_theme: techie-joe/neo
 
+    remote_theme_build_revision: {{ site.github.build_revision }}
+
     plugins:
     - jekyll-remote-theme
     # add jekyll-remote-theme to the existing plugins list if you already have one.

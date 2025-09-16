@@ -23,6 +23,7 @@ time          : {{ site.time }}
 timezone      : {{ site.timezone }}
 paginate_path : {{ site.paginate_path }}
 permalink     : {{ site.permalink }}
+lang          : {{ site.lang }}
 
 source          : {{ site.source }}
 destination     : {{ site.destination }}

@@ -11,6 +11,7 @@ url    : {{ page.url }}
 dir    : {{ page.dir }}
 path   : {{ page.path }}
 name   : {{ page.name }}
+lang   : {{ page.lang }}
 
 published : {{ page.published }} # false - if you don't want to generate the post
 
