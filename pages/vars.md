@@ -4,7 +4,7 @@ description: Variables on this site.
 permalink: vars
 ---
 
-# Vars
+# {{ page.title }}
 
 {% include layout-vars.md %}
 {% include page-vars.md %}

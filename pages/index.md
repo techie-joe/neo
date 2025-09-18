@@ -3,7 +3,7 @@ title: Pages
 description: Pages on this site.
 ---
 
-# Pages
+# {{ page.title }}
 
 > {{ page.description }}
 

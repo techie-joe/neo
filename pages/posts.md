@@ -4,7 +4,7 @@ description: Posts on this site.
 permalink: posts
 ---
 
-# Posts
+# {{ page.title }}
 
 > {{ page.description }}
 
