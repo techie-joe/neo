@@ -15,7 +15,7 @@ layout: home
 <h1 id="_hero-title">{{ page.title | site.title }}</h1>
 ---
 
-_{{ site.description }}_{: ._b.text-white style="font-size:1.2em" }
+_{{ site.description }}_{: ._b style="font-size:1.2em" }
 
 <div class="_flex my-2">
   <div class="_flex-main" style="min-width:300px">
