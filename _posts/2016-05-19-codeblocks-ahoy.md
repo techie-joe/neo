@@ -1,6 +1,7 @@
 ---
 layout: post
 ---
+# {{ page.title }}
 
 An article with various blocks of highlighted code snippets.
 
