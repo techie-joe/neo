@@ -15,14 +15,14 @@ layout: home
 <h1 id="_hero-title">{{ page.title | site.title }}</h1>
 ---
 
-_{{ site.description }}_
+_{{ site.description }}_{: ._b.text-white style="font-size:1.2em" }
 
 <div class="_flex my-2">
   <div class="_flex-main" style="min-width:300px">
-    Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
+    <p style="margin-bottom:1em">Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.</p>
   </div>
   <div>
-    <a href="./preview" title="Preview the theme to see what it looks like." class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:0 1em;">Preview</a>
+    <p><a href="./preview" title="Preview the theme to see what it looks like." class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:0 1em;">Preview</a></p>
   </div>
 </div>
 
@@ -40,4 +40,4 @@ plugins:
 # add jekyll-remote-theme to the existing plugins list if you already have one.
 ```
 
-[Read more about customizing](https://github.com/techie-joe/neo?tab=readme-ov-file#customizing).
+[Read more on customizing](https://github.com/techie-joe/neo?tab=readme-ov-file#customizing)
