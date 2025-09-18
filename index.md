@@ -5,8 +5,14 @@
 # To change the home page layout, edit the _layouts/home.html file.
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
+title: Techie Joe's Neo theme
 layout: home
 ---
-<h1 id="_hero-title">{{ site.title }}</h1>
+<div class="_flex my-2">
+  <div class="_flex-main">
+    <h1 id="_hero-title">{{ site.title }}</h1>
+  </div>
+  {% include topmenu.html %}
+</div>
 ---
 {% include demo.md %}
