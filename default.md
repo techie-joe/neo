@@ -1,4 +1,5 @@
 ---
+title: Default
 permalink: default
 ---
 _default_
