@@ -10,7 +10,7 @@ layout: home
 ---
 <div class="_flex my-2">
   <div class="_flex-main">
-    <h1 id="_hero-title">{{ site.title }}</h1>
+    <h1 id="_hero-title">{{ page.title }}</h1>
   </div>
   {% include topmenu.html %}
 </div>
