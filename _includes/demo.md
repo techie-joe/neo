@@ -95,7 +95,7 @@ end
 
 ### Large image
 
-![Branching](https://picsum.photos/id/3/1024/368)
+![Branching](https://picsum.photos/id/2/1024/368)
 
 
 ### Definition lists can be used with HTML syntax.

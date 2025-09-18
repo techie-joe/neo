@@ -92,7 +92,7 @@ Long, single-line `code blocks` should not wrap. They should horizontally scroll
 
 Add full scale images, align them centered or float them left or right.
 
-![Large image](https://picsum.photos/id/3/1024/368){: .width-full.centered }
+![Large image](https://picsum.photos/id/2/1024/368){: .width-full.centered }
 
 > Images for this demo came from [picsum.photos](https://picsum.photos/) and [unsplash](https://unsplash.com)
 {: .text-small }
