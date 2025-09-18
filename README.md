@@ -13,10 +13,6 @@
 **Neo** helps you build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
 -->
 
-<!--
-<a href="https://techie-joe.github.io/neo/" title="See how you can use this template to build your website" class="_bt -l -blue" style="width:10rem;height:3rem;font-weight:600;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
--->
-
 ---
 
 <!-- ![Thumbnail of Neo theme](thumbnail.png) -->
