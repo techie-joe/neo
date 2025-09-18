@@ -6,22 +6,20 @@
 > **This project is under active development towards a release. Use with caution. Future update may break your site.**
 
 <!--
-
 [![.github/workflows/ci.yaml](https://github.com/techie-joe/neo/actions/workflows/ci.yaml/badge.svg)](https://github.com/techie-joe/neo/actions/workflows/ci.yaml) [![Gem Version](https://github.com/techie-joe/neo/jekyll-theme-neo.svg)](https://github.com/techie-joe/neo/jekyll-theme-neo)
-
 -->
 
 <!--
+**Neo** helps you build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
+-->
 
-![Thumbnail of Neo theme](thumbnail.png)
-
-**Neo** theme helps you build websites easily. It has everything pre-configured to get you started right away. You can write contents of your website in both Markdown and HTML. When you commit your code, GitHub Pages will build your website from the content of your repository.
-
+<!--
 <a href="https://techie-joe.github.io/neo/" title="See how you can use this template to build your website" class="_bt -l -blue" style="width:10rem;height:3rem;font-weight:600;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
-
 -->
 
 ---
+
+<!-- ![Thumbnail of Neo theme](thumbnail.png) -->
 
 ## Project philosophy
 
