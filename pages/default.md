@@ -4,4 +4,4 @@ permalink: default
 ---
 _Default demo_
 ---
-{% include demo.md %}
+{% include demo-old.md %}

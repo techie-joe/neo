@@ -1,4 +1,4 @@
-<h1 id="_hero-title" class="hero">Demo page with <span class="text-red">a big red</span> hero text</h1>
+<h1 id="_hero-title" class="hero">Theme preview with <span class="text-red">a big red</span> hero text</h1>
 
 ## Better control over contents
 
@@ -19,11 +19,12 @@ Include image with floats and margins.
 
 ## Style text &amp; color
 
-Text can be written in **bold**, _italic_, ***both***, ~~strikethrough~~,
+Text can be **bold**, _italic_, ***both***, ~~strikethrough~~,
 <abbr title="Abbreviation">abbr</abbr>,
 <samp>samp</samp>,
 `code`, or <mark>mark</mark>.
 
+You can color them in 
 <b class="text-primary">primary</b>
 <b class="text-secondary">secondary</b>
 <b class="text-gray">gray</b>
@@ -34,13 +35,13 @@ Text can be written in **bold**, _italic_, ***both***, ~~strikethrough~~,
 <b class="text-purple">purple</b>
 <b class="text-pending">pending</b>
 <b class="text-orange">orange</b>
-<b class="text-orange-light">orange-light</b>
+<b class="text-orange-light">orange-light</b>.
 
 ## Text blocks
 
 > You can write a bunch of text in a blockquote.
 >
-> > A blockquote can be nested too.
+> > .. and nested them too.
 > 
 
 <!-- This content will not appear in the rendered Markdown -->
@@ -123,10 +124,10 @@ Add full scale images, align them centered or float them left or right.
 ###### Tasks
 
 - [x] Completed task.
+- [ ] Pending task.
     - task item level 2
         - task item level 3
     - task item level 2
-- [ ] Pending task.
 
 ## Definitions
 
@@ -169,22 +170,22 @@ Add full scale images, align them centered or float them left or right.
 
 ## Links
 
-You can create links to
-[pages]({{ site.baseurl }}/pages/ "Page examples").
+You can create links to [pages]({{ site.baseurl }}/pages/ "Pages").
 
 {% if site.posts.size > 0 %}
 
-... or make a list of all the posts you have:
+... or make a list of all the [posts]({{ site.baseurl }}/posts/ "Posts") you have:
 
-<ul>{% for post in site.posts -%}
-<li><a href="..{{ post.url }}">{{ post.title }}</a></li>
-{%- endfor %}</ul>
+{% for p in site.posts %}
+{% if p.title %}- [{{ p.title }}]({{ site.github.url }}{{ p.url }})
+{% else %}- [(Untitled post)]({{ site.github.url }}{{ p.url }}){% endif %}
+{% endfor %}
 
 {% endif %}
 
-If you link to a missing page, you'll see [an error](../404 "Page not found").
+If you link to a missing page, you'll see <a href="{{ site.baseurl }}/404" title="Page not found">an error page</a>.
 
-## Button Links
+## Button links
 
 <a href="#" class="_bt -l -blue">Primary Button Link</a>
 <a href="#" class="_bt -l -flat">Secondary Button Link</a>
