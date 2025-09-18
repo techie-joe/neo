@@ -1,5 +1,5 @@
 ---
-title: Demo Page
+title: Demo page
 description: Demo page for a Jekyll theme.
 permalink: demo
 ---
@@ -7,7 +7,7 @@ permalink: demo
 This is a demo page for **{{ site.title }}** - a Jekyll theme for building websites on GitHub. **{{ site.nickname }}** can help you build website easily. It has everything pre-configured to get you started right away. You can write contents in both Markdown and HTML. When you commit your code, **GitHub Pages** will build and publish your website from the content of your repository.
 {: .bg-secondary.p-3.text-slategray.text-small }
 
-<h1 id="_hero-title" class="hero">Write <span class="text-red">a big red</span> hero text</h1>
+<h1 id="_hero-title" class="hero">Demo page with <span class="text-red">a big red</span> hero text</h1>
 
 ## Better control over contents
 
