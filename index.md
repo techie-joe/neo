@@ -9,7 +9,7 @@ title: Techie Joe's Neo theme
 layout: home
 ---
 <div class="_flex my-2">
-  <div class="_flex-main">![Thumbnail of Neo theme](thumbnail.png)</div>
+  <div class="_flex-main"></div>
   {% include topmenu.html %}
 </div>
 <h1 id="_hero-title">{{ page.title | site.title }}</h1>
@@ -19,10 +19,7 @@ _{{ site.description }}_
 
 Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
 
-<a href="./preview" title="Preview the theme to see what it looks like." class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">Preview theme</a>
-<a href="#usage" title="See how to use this template to build your websites" class="_bt -l -flat" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">Usage</a>
-
----
+<a href="./preview" title="Preview the theme to see what it looks like." class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">Preview</a>
 
 ## Usage
 

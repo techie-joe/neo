@@ -1,6 +1,6 @@
 # The Neo theme
 
-*Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/) or [use it today](#usage).*
+*Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/preview) or [use it today](#usage).*
 
 Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
 
