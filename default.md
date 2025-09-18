@@ -1,7 +1,7 @@
 ---
-title: Default
+title: Default demo
 permalink: default
 ---
-_Default_
+_Default demo_
 ---
 {% include demo.md %}
