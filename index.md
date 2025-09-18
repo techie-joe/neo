@@ -8,4 +8,5 @@
 layout: home
 ---
 <h1 id="_hero-title">{{ site.title }}</h1>
+---
 {% include demo.md %}
