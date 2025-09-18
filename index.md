@@ -9,7 +9,7 @@ title: Techie Joe's Neo theme
 layout: home
 ---
 <div class="_flex my-2">
-  <div class="_flex-main"></div>
+  <div class="_flex-main">![Thumbnail of Neo theme](thumbnail.png)</div>
   {% include topmenu.html %}
 </div>
 <h1 id="_hero-title">{{ page.title | site.title }}</h1>
@@ -17,17 +17,10 @@ layout: home
 
 _{{ site.description }}_
 
-**Neo** helps you build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
+Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
 
-<a href="./pages/" title="See how you can use this template to build your websites" class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">See demo</a>
-
-![Thumbnail of Neo theme](thumbnail.png)
-
----
-
-## Project philosophy
-
-The Neo theme project is intended to make it quick and easy for GitHub Pages users to build their website. The theme should meet the need of vast majority of users out of the box, erring on simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). Needless to say, the theme should also look neat and tidy.
+<a href="./preview" title="Preview the theme to see what it looks like." class="_bt -l -blue" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">Preview theme</a>
+<a href="#usage" title="See how to use this template to build your websites" class="_bt -l -flat" style="width:10rem;height:3rem;font-size:1.2rem;padding:0;margin:1em 0;">Usage</a>
 
 ---
 
@@ -45,4 +38,4 @@ plugins:
 # add jekyll-remote-theme to the existing plugins list if you already have one.
 ```
 
-[Read more customization options](https://github.com/techie-joe/neo?tab=readme-ov-file#customizing)
+[Read more about customizing](https://github.com/techie-joe/neo?tab=readme-ov-file#customizing).

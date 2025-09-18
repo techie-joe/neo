@@ -1,4 +1,3 @@
-
 <h1 id="_hero-title" class="hero">Demo page with <span class="text-red">a big red</span> hero text</h1>
 
 ## Better control over contents
