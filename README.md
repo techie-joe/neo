@@ -1,15 +1,17 @@
 # The Neo theme
 
-*Neo is a Jekyll theme for GitHub Pages. [Preview the theme to see what it looks like](https://techie-joe.github.io/neo/preview) or [use it today](#usage).*
+_Neo is a Jekyll theme for GitHub Pages._
 
 Build websites with ease. Everything is pre-configured so you can start right away. Write your content in Markdown or HTML, and your site will be built directly from the code in your repository.
+
+**[Preview the theme to see what it looks like](https://techie-joe.github.io/neo/preview) or [use it today](#usage).**
 
 > [!WARNING]  
 > **This project is under active development. Use with caution. Future update may break your site.**
 
 ---
 
-![Thumbnail of Neo theme](thumbnail.png)
+![Thumbnail of the Neo theme](thumbnail.png)
 
 <!--
 [![.github/workflows/ci.yaml](https://github.com/techie-joe/neo/actions/workflows/ci.yaml/badge.svg)](https://github.com/techie-joe/neo/actions/workflows/ci.yaml) [![Gem Version](https://github.com/techie-joe/neo/jekyll-theme-neo.svg)](https://github.com/techie-joe/neo/jekyll-theme-neo)
@@ -19,7 +21,7 @@ Build websites with ease. Everything is pre-configured so you can start right aw
 
 ## Project philosophy
 
-The Neo theme project is intended to make it quick and easy for GitHub Pages users to build their website. The theme should meet the need of vast majority of users out of the box, erring on simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). Needless to say, the theme should also look neat and tidy.
+The project is intended to make it quick and easy for users to build their website. The template should meet the need of vast majority of users out of the box, erring on simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). Needless to say, the theme should also look neat and tidy.
 
 ---
 
